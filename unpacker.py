@@ -131,8 +131,8 @@ def unpack():
 
 
 if __name__ == '__main__':
-    direc = 'G:/SteamLibrary/steamapps/common/New World Playtest/assets/'
-    out_direc = 'Z:/RE_OtherGames/NewWorld/unpack2/'
+    direc = 'E:/Program Files (x86)/Steam/steamapps/common/New World/assets/'
+    out_direc = 'E:/dev/NewWorldUnpacker/out/'
     os.makedirs(out_direc, exist_ok=True)
     unpack()
     print(f'Total skipped: {[x[:36] for x in skipped]}')
