@@ -1,70 +1,25 @@
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\newworld_vitaeeterna\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\newworld_vitaeeterna\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\newworld_vitaeeterna\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\newworld_vitaeeterna\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\newworld_vitaeeterna\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_arena01\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_arena01\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_arena01\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_arena01\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_arena01\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_brimstonesands_00\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_brimstonesands_00\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_brimstonesands_00\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_brimstonesands_00\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_brimstonesands_00\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_cutlasskeys_00\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_cutlasskeys_00\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_cutlasskeys_00\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_cutlasskeys_00\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_cutlasskeys_00\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_edengrove_00\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_edengrove_00\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_edengrove_00\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_edengrove_00\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_edengrove_00\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_everfall_00\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_everfall_00\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_everfall_00\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_everfall_00\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_everfall_00\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_greatcleave_01\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_greatcleave_01\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_greatcleave_01\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_greatcleave_01\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_greatcleave_01\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_reekwater_00\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_reekwater_00\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_reekwater_00\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_reekwater_00\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_reekwater_00\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_restlessshores_01\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_restlessshores_01\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_restlessshores_01\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_restlessshores_01\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_restlessshores_01\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_shattermtn_00\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_shattermtn_00\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_shattermtn_00\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_shattermtn_00\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_shattermtn_00\%%~nf.png"
-@REM )
-@REM for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_dungeon_windsward_00\" %%f in (*.dds) do (  
-@REM   CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_windsward_00\%%~nf.png"
-@REM   cwebp "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_windsward_00\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_windsward_00\%%~nf.webp"
-@REM   DEL "C:\dev\NewWorldUnpacker\tiles\nw_dungeon_windsward_00\%%~nf.png"
-@REM )
-for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_trial_season_02\" %%f in (*.dds) do (  
-  CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02\%%~nf.png"
-  cwebp "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02\%%~nf.webp"
-  DEL "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02\%%~nf.png"
+@echo off
+setlocal enabledelayedexpansion
+
+rem Define a list of folder names
+set "folderList=newworld_vitaeeterna nw_arena01 nw_arena02 nw_dungeon_brimstonesands_00 nw_dungeon_cutlasskeys_00 nw_dungeon_edengrove_00 nw_dungeon_everfall_00 nw_dungeon_firstlight_01 nw_dungeon_greatcleave_01 nw_dungeon_reekwater_00 nw_dungeon_restlessshores_01 nw_dungeon_shattermtn_00 nw_dungeon_windsward_00 nw_trial_season_02 nw_trial_season_02_q13 outpostrush"
+
+rem Loop through the folder names
+for %%F in (%folderList%) do (
+    set "currentFolder=%%F"
+    set "folderPath=C:\dev\NewWorldUnpacker\tiles\!currentFolder!"
+    
+    rem Check if the folder exists and create it if it doesn't
+    if not exist "!folderPath!" (
+        mkdir "!folderPath!"
+    )
+    
+    rem Process the files in the folder
+    for %%f in ("C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\!currentFolder!\*.dds") do (  
+        CompressonatorCLI.exe -fd ARGB_8888 "%%f" "!folderPath!\%%~nf.png"
+        cwebp "!folderPath!\%%~nf.png" -o "!folderPath!\%%~nf.webp"
+        DEL "!folderPath!\%%~nf.png"
+    )
 )
-for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\nw_trial_season_02_q13\" %%f in (*.dds) do (  
-  CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02_q13\%%~nf.png"
-  cwebp "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02_q13\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02_q13\%%~nf.webp"
-  DEL "C:\dev\NewWorldUnpacker\tiles\nw_trial_season_02_q13\%%~nf.png"
-)
-for /R "C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\outpostrush\" %%f in (*.dds) do (  
-  CompressonatorCLI.exe -fd ARGB_8888 "%%f" "C:\dev\NewWorldUnpacker\tiles\outpostrush\%%~nf.png"
-  cwebp "C:\dev\NewWorldUnpacker\tiles\outpostrush\%%~nf.png" -o "C:\dev\NewWorldUnpacker\tiles\outpostrush\%%~nf.webp"
-  DEL "C:\dev\NewWorldUnpacker\tiles\outpostrush\%%~nf.png"
-)
+
+endlocal
