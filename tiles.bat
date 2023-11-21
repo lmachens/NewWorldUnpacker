@@ -7,7 +7,7 @@ set "folderList=newworld_vitaeeterna nw_arena01 nw_arena02 nw_dungeon_brimstones
 rem Loop through the folder names
 for %%F in (%folderList%) do (
     set "currentFolder=%%F"
-    set "folderPath=C:\dev\NewWorldUnpacker\tiles\!currentFolder!"
+    set "folderPath=C:\dev\NewWorldUnpacker\tiles\ptr\!currentFolder!"
     
     rem Check if the folder exists and create it if it doesn't
     if not exist "!folderPath!" (
@@ -15,7 +15,8 @@ for %%F in (%folderList%) do (
     )
     
     rem Process the files in the folder
-    for %%f in ("C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\!currentFolder!\*.dds") do (  
+    @REM for %%f in ("C:\dev\NewWorldUnpacker\out\lyshineui\worldtiles\!currentFolder!\*.dds") do (  
+    for %%f in ("C:\dev\NewWorldUnpacker\out\ptr\lyshineui\worldtiles\!currentFolder!\*.dds") do (  
         CompressonatorCLI.exe -fd ARGB_8888 "%%f" "!folderPath!\%%~nf.png"
         cwebp "!folderPath!\%%~nf.png" -o "!folderPath!\%%~nf.webp"
         DEL "!folderPath!\%%~nf.png"
