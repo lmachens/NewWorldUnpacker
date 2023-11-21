@@ -131,8 +131,8 @@ def unpack():
 
 
 if __name__ == '__main__':
-    # direc = 'C:/Program Files (x86)/Steam/steamapps/common/New World/assets/'
-    direc = 'C:/Program Files (x86)/Steam/steamapps/common/New World Public Test Realm/assets/'
+    direc = 'C:/Program Files (x86)/Steam/steamapps/common/New World/assets/'
+    # direc = 'C:/Program Files (x86)/Steam/steamapps/common/New World Public Test Realm/assets/'
     out_direc = 'C:/dev/NewWorldUnpacker/out/'
     os.makedirs(out_direc, exist_ok=True)
     unpack()
